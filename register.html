@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+	<link rel="stylesheet" href ="style.css">
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="./asset/ge.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="profile-info">
+                <span class="profile-name">Hinaa's Appretiation Group</span>
+                <span class="profile-desc">A Website For Registration</span>
+                
+            </div>
+        </div>
+        <div class="navbar">
+            <a href="#about">About</a> | 
+            <a href="#register">Register</a>
+        </div>
+    </header>
+    
+	<div class="about-container" id="about">
+        <h1>ABOUT</h1>
+        <p>Hinaa is a significant figure in various Polynesian cultures, with her stories and characteristics varying from island to island. While she is primarily associated with the moon, fertility, and agriculture, her tales often intertwine with creation myths and celestial narratives. To <a href="#register">join</a> the Hinaa's Appretiation Group please fill out the form below.</p>
+        
+    </div>
+
+    <div class="container" id="register">
+		<h1>Registration Form</h1>
+		<form method="get" action="detail.html">
+			<table>
+				<tr>
+					<td><label for="name">Name:</label></td>
+					<td><input type="text" id="name" name="name" placeholder="Dzaki Gastiadirrijal"></td>
+				</tr>
+				<tr>
+					<td><label for="email">Email:</label></td>
+					<td><input type="email" id="email" name="email" placeholder="Hinaa@gmail.com"></td>
+				</tr>
+				<tr>
+					<td><label for="phone">Phone:</label></td>
+					<td><input type="tel" id="phone" name="phone" placeholder="089629962880"></td>
+				</tr>
+                <tr>
+                    <td><label for="Age">Age* :</label></td>
+                    <td><input type="number" id="Age" name="Age" min="18" max="40" placeholder="21"></td>
+                </tr>
+				<tr>
+					<td colspan="2" style="text-align: right;"><input type="submit" value="Submit"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+    
+</body>
+</html>
